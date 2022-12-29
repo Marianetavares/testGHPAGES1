@@ -1,0 +1,160 @@
+
+
+
+ 
+nav.menu-nav ul li.btn{
+  display: inline-block; 
+  list-style-type: none; 
+}
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: #ee93ee;
+    text-decoration: none;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color:#ee93ee;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+header{
+    background-image: url('../img/satin-de-soie-uni-mauve--103_Raso_14.jpg');
+    
+    
+   
+    
+}
+body{
+    background-image: url('../img/soie2.jpg');
+    background-size: cover;
+    
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, (350px, 1fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+padding: 20px;
+
+
+}
+
+
+
+
+.container .box {
+    position: relative;
+    padding: 80px, 40px 40px;
+    transition: 0.5s;
+    text-align: center;
+    background: #fff;
+
+}
+
+.container .box:hover{
+    background:rgb(240, 211, 211);
+}
+
+.container .box p{
+    margin: 10;
+    padding: 0;
+    transition: 0.5s;
+
+
+}
+
+.container .box h4{
+    margin: 20px 0 0;
+    padding: 0;
+    transition: 0.5s;
+    font-size:  18px; ;
+    color: rgb(240, 211, 211);
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    
+
+
+}
+
+
+
+
+.container .box h4 span{
+    font-weight:600 ;
+    font-size: 14px;
+    color: c5c5c5;
+    transition: 0.5s;
+
+
+
+}
+
+.container .box:hover p,
+
+.container .box:hover,
+.container .box:hover h4 span{
+    color: #fff;
+}
+
+
+
+    
+
+
+
+
+
+
+
+.Formation{
+    background: rgb(240, 211, 211) ;
+    animation-fill-mode: both;
+    
+}
+
+.Langues{
+    background: rgb(240, 211, 211);
+}
+
+.Expériencesprofessionelles{
+background-color: rgb(240, 211, 211);
+}
+
+.Compétences{
+    background: rgb(240, 211, 211);
+
+}
+
+.Divers{
+    background: rgb(240, 211, 211);
+}
+
+
+
+footer{
+    color: white;
+    background-color:#ee93ee;
+
+}
+
+h1{
+    font-size:xx-large;
+    color:magenta;
+    
+}
+p{
+    font-size:larger;
+    color:black;
+}
+
+
+   
